@@ -81,6 +81,8 @@ namespace JwtAuthentication
             }
 
             app.UseAuthentication();
+            // add-migration "first migration"
+            // update-database
 
             app.UseMvc();
         }
